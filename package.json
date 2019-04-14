@@ -1,0 +1,35 @@
+{
+  "name": "only-todo-app",
+  "version": "0.5.0",
+  "private": true,
+  "author": "Edward",
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "github",
+    "chrome extension"
+  ],
+  "dependencies": {
+    "install": "^0.12.2",
+    "npm": "^6.9.0",
+    "react": "^16.8.6",
+    "react-cookie": "^3.1.2",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "INLINE_RUNTIME_CHUNK=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
